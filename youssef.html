@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر LEGO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">متجر LEGO</div>
+    <div class="search-container">
+        <input type="text" placeholder="ابحث عن منتج..." id="search-bar">
+        <button onclick="searchProduct()">بحث</button>
+    </div>
+    <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">المنتجات</a>
+        <a href="#">عروض خاصة</a>
+        <a href="#">تواصل معنا</a>
+    </nav>
+    <div class="cart" onclick="handleClick()">
+        <i class="fas fa-shopping-cart"></i> <!-- أيقونة السلة -->
+        <span id="cart-count">0</span> سلة التسوق
+    </div>
+</header>
+
+<main>
+    <p align="center">
+        <b>احدث المنتاجات</b>
+    </p>
+    <div class="products">
+        <div class="product">
+            <h3>مجموعة LEGO 1</h3>
+            <img src="https://fci.sohag-univ.edu.eg/main/wp-content/uploads/2022/03/276041358_990418518263982_752579394637785820_n.jpg" alt="مجموعة LEGO 1">
+            <p>سعر: 100 جنيه</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <h3>مجموعة LEGO 2</h3>
+            <img src="https://immulti.com/services/Blue%20Modern%20Artificial%20Intelligence%20Technology%20Logo_20240403_101849_%D9%A0%D9%A0%D9%A0%D9%A07991712205180.webp" alt="مجموعة LEGO 2">
+            <p>سعر: 150 جنيه</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <h3>مجموعة LEGO 3</h3>
+            <img src="https://cdn.maatloob.com/profile/services/p650x650/img-64bd450e137c31-33761770.jpg" alt="مجموعة LEGO 3">
+            <p>سعر: 200 جنيه</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <h3>مجموعة LEGO 4</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzfvdfGiXy0Uen0fQjPkYnrWRw-q6oQF4Ag8WoMW_1fcqMsjXcJQD1BFLRA&s" alt="مجموعة LEGO 4">
+            <p>سعر: 250 جنيه</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <h3>مجموعة LEGO 5</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-m9vTQla2iNOyI9NQriT8ImnPMqR1PqTuUA&s" alt="مجموعة LEGO 5">
+            <p>سعر: 300 جنيه</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <h3>مجموعة LEGO 6</h3>
+            <img src="https://bnokalyoum.com/wp-content/uploads/2021/05/%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%89.jpg" alt="مجموعة LEGO 6">
+            <p>سعر: 350 جنيه</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <h3>مجموعة LEGO 7</h3>
+            <img src="https://img.oercommons.org/oercommons/media/editor/358151/image-20220602035148-2.png" alt="مجموعة LEGO 7">
+            <p>سعر: 400 جنيه</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <h3>مجموعة LEGO 8</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqIWBJg2zTQg0k6aaAuMphzAfAFK51eav8jQ&s" alt="مجموعة LEGO 8">
+            <p>سعر: 450 جنيه</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>{osama abdalla}:مصمم اللجو</p>
+    <p>
+        <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a> |
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+    </p>
+    <p>حقوق الطبع والنشر &copy; 2024 متجر LEGO</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
